@@ -48,7 +48,7 @@ This allows you to update the lookup table to contain the correct GABC notation 
     24  n   i
     161 x
 
-The notation of the lookup file is that each line has the lookup code followed by some whitespace, followed by an "s" if it's a special character sequence, like the dividers, "n" if it's notes, and "x" if that lookup code should be ignored. Note that the converter is smart and only needs eg. ji provided in the lookup table to be able to fill in ba, fe, and so on when code 20 is provided at different pitches in the GRG file. Also, the entries don't have to be in numerical order.
+The notation of the lookup file is that each line has the lookup code followed by some whitespace, followed by an "s" if it's a special character sequence, like the dividers, "n" if it's notes, and "x" if that lookup code should be ignored. Note that the converter is smart and only needs eg. `ji` provided in the lookup table to be able to fill in `ba`, `fe`, and so on when code 20 is provided at different pitches in the GRG file. Also, the entries don't have to be in numerical order.
 
 Now when you run `converter.py` again, it should completely convert the file.
 
