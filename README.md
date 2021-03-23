@@ -18,7 +18,7 @@ Running `converter.py` generates an `output` folder containing the GABC files.
      - b.gabc
      - c.gabc
 
-`lookup-table.txt` is required to specify specify the correct GABC notation for any neum that the GRG file contains. For example, `lookup-table.txt` could be as follows:
+`lookup-table.txt` is required to specify the correct GABC notation for any neum that the GRG file contains. For example, `lookup-table.txt` could be as follows:
 
     1   s   ;
     2   s   ,
