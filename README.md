@@ -28,7 +28,7 @@ Running `converter.py` generates an `output` folder containing the GABC files.
     24  n   i
     161 x
 
-and then upon running `converter.py`, you may get a message altering you that you need to provide GABC notation for lookup code 20:
+and then upon running `converter.py`, you may get a message alerting you that you need to provide GABC notation for lookup code 20:
 
     $ python converter.py
     Processing some-file.grg
